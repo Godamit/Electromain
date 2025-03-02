@@ -1772,6 +1772,7 @@ h3{
     height:100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     /* background-color: #b6a590; */
     /* background-image: url("/img/newsbg.png");Semi-transparent background */
     box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.1);
@@ -1786,11 +1787,29 @@ h3{
 
 
 
-
+.techead-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 #techead{
     font-family: Myfont;
     font-size: 8rem;
-    margin-bottom:300px ;
+    margin-top:200px ;
     
+}
+#techsubhead{
+    font-family: Myfont;
+    font-size: 1.8rem;
+    
+}
+
+
+.belowhead {
+    font-family: Myfont;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    margin-top:300px ;
+    border-bottom: solid 2px black;
 }
