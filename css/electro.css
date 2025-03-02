@@ -4,11 +4,17 @@ body{
     padding: 0;
     scroll-behavior: smooth;
 }
-
+/* 
 
 @font-face {
     font-family: Myfont;
     src: url("../bad.otf");
+} */
+
+
+@font-face {
+    font-family: Myfont;
+    src: url("../bad2.otf");
 }
 
 
@@ -1784,7 +1790,7 @@ h3{
 
 #techead{
     font-family: Myfont;
-    font-size: 10rem;
+    font-size: 8rem;
     margin-bottom:300px ;
     
 }
