@@ -1,0 +1,62 @@
+
+
+
+.techathon{
+    padding: 50px;
+    height:100vh;
+    width: 100%;
+    background-image: url("/img/NEWS.png") ;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-repeat: none;
+
+
+    
+}
+
+
+.techathonin{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #b6a590; */
+    /* background-image: url("/img/newsbg.png");Semi-transparent background */
+    box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+
+    /* opacity: 50%; */
+
+    
+}
+
+
+
+
+.techead-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#techead{
+    font-family: Myfont;
+    font-size: 8rem;
+    margin-top:200px ;
+    
+}
+#techsubhead{
+    font-family: Myfont2;
+    font-size: 1.8rem;
+    
+}
+
+
+.belowhead {
+    font-family: Myfont;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    margin-top:300px ;
+    border-bottom: solid 2px black;
+}
