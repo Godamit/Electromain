@@ -4,17 +4,17 @@ body{
     padding: 0;
     scroll-behavior: smooth;
 }
-/* 
+
 
 @font-face {
-    font-family: Myfont;
+    font-family: Myfont2;
     src: url("../bad.otf");
-} */
+} 
 
 
 @font-face {
     font-family: Myfont;
-    src: url("../bad2.otf");
+    src: url("../bad3.ttf");
 }
 
 
@@ -1338,8 +1338,17 @@ body{
     width: 100%;
 }
 
+h33{
+    font-size: 1rem;
+    font-style: italic;
+    color: grey;
+    margin-top: 10px;
+}
+
 h3{
 	font-family: sans-serif;
+    font-weight: bolder;
+    /* margin-top: 50px; */
 }
 .containerr {
     padding: 10px;
@@ -1381,7 +1390,7 @@ h3{
 	position:relative;
 	width:50%;
 	min-height:100px;
-	margin-bottom:20px;
+	/* margin-bottom:20px; */
 	padding: 20px 40px;
 	text-align: right;
 	transition:.3s;
@@ -1800,7 +1809,7 @@ h3{
     
 }
 #techsubhead{
-    font-family: Myfont;
+    font-family: Myfont2;
     font-size: 1.8rem;
     
 }
